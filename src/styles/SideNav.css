@@ -1,0 +1,50 @@
+/* .SideNav{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}  */
+
+.side {
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 2rem;
+}
+
+.bird {
+    text-align: left;
+    padding: 2rem 3rem;
+}
+
+.sdt {
+    text-align: left;
+    padding: .75rem 7rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn {
+    background-color: rgb(47, 187, 187);
+    /* padding: 0.95rem 0.5rem; */
+    padding: 0.95rem 5.5rem;
+    border: none;
+    border-radius: 1.5rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1.5rem
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    color: white;
+}

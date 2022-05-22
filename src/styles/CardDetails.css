@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(23, 24, 26);
+    width: 20rem;
+    height: 24rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.cdata {
+    padding: 1rem;
+    border-bottom: 2px solid rgb(37, 34, 34)
+}

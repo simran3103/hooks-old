@@ -1,0 +1,56 @@
+.head {
+    border-bottom: 2px solid rgb(37, 34, 34);
+    text-align: left;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.15rem;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    display: flex;
+}
+
+.input1 {
+    /* display: flex;
+    flex-direction: column; */
+    border-bottom: 10px solid rgb(37, 34, 34);
+    /* position: sticky;
+    top: 55px; */
+}
+
+.input2 {
+    text-align: left;
+    height: 3.5rem;
+    width: 90%;
+    background-color: black;
+    border: none;
+    color: white;
+    vertical-align: baseline;
+}
+
+
+.imgbtn {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+
+input[type='file'] {
+    color: transparent;
+}
+
+.Tbtn {
+    /* border: 1px solid white; */
+    background-color: rgb(47, 187, 187);
+    /* padding: 0.95rem 0.5rem; */
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 1.5rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    /* align-self: flex-end; */
+    margin: 0.5rem;
+}
